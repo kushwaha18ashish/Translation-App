@@ -44,7 +44,7 @@
             android:id="@+id/btn_translate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Translate"
+            android:text="Translate To Hindi"
             android:textColor="@color/black"
             android:layout_margin="30dp"
             android:layout_gravity="center"
@@ -63,17 +63,27 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:background="@drawable/bg_edittext"
+            android:layout_height="200dp"
+            android:background="@drawable/bg_output"
             android:orientation="vertical"
             android:layout_margin="10dp">
 
             <ScrollView
-                android:id="@+id/sv_output"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                />
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_output"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/yellow"
+                    android:layout_margin="10dp"
+                    />
+            </ScrollView>
+
 
 
         </LinearLayout>
